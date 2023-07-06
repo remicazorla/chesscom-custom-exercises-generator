@@ -1,0 +1,8 @@
+https://github.com/x4nth055/pythoncode-tutorials/blob/master/gui-programming/chess-game/data/imgs/w_knight.png
+
+
+Yes, it can be flipped. You just have to swap each 'b', and 'w' letter at `self.config` in Board.py first, then also swap places the if statements (if self.color == 'white', if self.color == 'black') at get_possible_moves() and get_moves() method in Pawn.py for the pawn moves.
+
+
+
+
